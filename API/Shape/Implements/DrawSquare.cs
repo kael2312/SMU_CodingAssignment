@@ -9,7 +9,7 @@ namespace Shape.Implements
         public string Draw(int size, char character = '*')
         {
             string square = string.Empty;
-            string Result = string.Empty;
+            string result = string.Empty;
             int nxtline = 0;
             for (int i = 0; i < size; i++)
             {
@@ -25,8 +25,8 @@ namespace Shape.Implements
                 }
             }
 
-            Result = square;
-            return Result;
+            result = square;
+            return result;
         }
     }
 }
